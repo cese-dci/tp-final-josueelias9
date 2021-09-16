@@ -1,0 +1,65 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 6143E9AC
+P 3300 3100
+F 0 "R?" H 3370 3146 50  0000 L CNN
+F 1 "R" H 3370 3055 50  0000 L CNN
+F 2 "" V 3230 3100 50  0001 C CNN
+F 3 "~" H 3300 3100 50  0001 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 614448F2
+P 2950 3100
+F 0 "C?" H 3128 3146 50  0000 L CNN
+F 1 "CAP" H 3128 3055 50  0000 L CNN
+F 2 "" H 2950 3100 50  0001 C CNN
+F 3 "~" H 2950 3100 50  0001 C CNN
+	1    2950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:MCP73871 U?
+U 1 1 614453C4
+P 7650 3100
+F 0 "U?" H 7650 4181 50  0000 C CNN
+F 1 "MCP73871" H 7650 4090 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 7850 2200 50  0001 L CIN
+F 3 "http://www.mouser.com/ds/2/268/22090a-52174.pdf" H 7500 3650 50  0001 C CNN
+	1    7650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 3000
+Wire Wire Line
+	6500 3000 6950 3000
+Wire Wire Line
+	6950 3700 6500 3700
+Wire Wire Line
+	6500 3700 6500 3500
+Connection ~ 6500 3000
+Wire Wire Line
+	6950 3500 6500 3500
+Connection ~ 6500 3500
+Wire Wire Line
+	6500 3500 6500 3000
+$EndSCHEMATC
