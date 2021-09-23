@@ -20,7 +20,7 @@ P 9150 2150
 F 0 "R13" H 9220 2196 50  0000 L CNN
 F 1 "1k" H 9220 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 9080 2150 50  0001 C CNN
-F 3 "~" H 9150 2150 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 9150 2150 50  0001 C CNN
 	1    9150 2150
 	1    0    0    -1  
 $EndComp
@@ -46,56 +46,56 @@ Connection ~ 6950 2600
 $Comp
 L Connector:USB_B_Micro J2
 U 1 1 6143B4E7
-P 3750 1800
-F 0 "J2" H 3807 2267 50  0000 C CNN
-F 1 "USB_B_Micro" H 3807 2176 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 3900 1750 50  0001 C CNN
-F 3 "~" H 3900 1750 50  0001 C CNN
-	1    3750 1800
+P 1250 1800
+F 0 "J2" H 1307 2267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1307 2176 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 1400 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/1/io_usb_micro-2578038.pdf" H 1400 1750 50  0001 C CNN
+	1    1250 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 6143CC08
-P 3750 2350
-F 0 "#PWR0102" H 3750 2100 50  0001 C CNN
-F 1 "GND" H 3755 2177 50  0000 C CNN
-F 2 "" H 3750 2350 50  0001 C CNN
-F 3 "" H 3750 2350 50  0001 C CNN
-	1    3750 2350
+P 1250 2350
+F 0 "#PWR0102" H 1250 2100 50  0001 C CNN
+F 1 "GND" H 1255 2177 50  0000 C CNN
+F 2 "" H 1250 2350 50  0001 C CNN
+F 3 "" H 1250 2350 50  0001 C CNN
+	1    1250 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L pspice:CAP C5
 U 1 1 614448F2
-P 4350 2000
-F 0 "C5" H 4528 2046 50  0000 L CNN
-F 1 "CAP" H 4528 1955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4350 2000 50  0001 C CNN
-F 3 "~" H 4350 2000 50  0001 C CNN
-	1    4350 2000
+P 1850 2000
+F 0 "C5" H 2028 2046 50  0000 L CNN
+F 1 "CAP" H 2028 1955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1850 2000 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 1850 2000 50  0001 C CNN
+	1    1850 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 1450 4350 1600
+	1850 1450 1850 1600
 Wire Wire Line
-	4050 1600 4350 1600
-Connection ~ 4350 1600
+	1550 1600 1850 1600
+Connection ~ 1850 1600
 Wire Wire Line
-	4350 1600 4350 1750
+	1850 1600 1850 1750
 $Comp
 L power:GND #PWR0103
 U 1 1 61440635
-P 4350 2350
-F 0 "#PWR0103" H 4350 2100 50  0001 C CNN
-F 1 "GND" H 4355 2177 50  0000 C CNN
-F 2 "" H 4350 2350 50  0001 C CNN
-F 3 "" H 4350 2350 50  0001 C CNN
-	1    4350 2350
+P 1850 2350
+F 0 "#PWR0103" H 1850 2100 50  0001 C CNN
+F 1 "GND" H 1855 2177 50  0000 C CNN
+F 2 "" H 1850 2350 50  0001 C CNN
+F 3 "" H 1850 2350 50  0001 C CNN
+	1    1850 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 2250 4350 2350
+	1850 2250 1850 2350
 $Comp
 L Device:LED D3
 U 1 1 614421C6
@@ -103,7 +103,7 @@ P 9500 1600
 F 0 "D3" V 9539 1482 50  0000 R CNN
 F 1 "LED" V 9448 1482 50  0000 R CNN
 F 2 "LED_THT:LED_D8.0mm" H 9500 1600 50  0001 C CNN
-F 3 "~" H 9500 1600 50  0001 C CNN
+F 3 "https://www.mouser.com/Optoelectronics/LED-Lighting/LED-Emitters/Standard-LEDs-Through-Hole/Datasheets/_/N-b1bc8?P=1z0wue8" H 9500 1600 50  0001 C CNN
 	1    9500 1600
 	0    -1   -1   0   
 $EndComp
@@ -114,7 +114,7 @@ P 9150 1600
 F 0 "D2" V 9189 1482 50  0000 R CNN
 F 1 "LED" V 9098 1482 50  0000 R CNN
 F 2 "LED_THT:LED_D8.0mm" H 9150 1600 50  0001 C CNN
-F 3 "~" H 9150 1600 50  0001 C CNN
+F 3 "https://www.mouser.com/Optoelectronics/LED-Lighting/LED-Emitters/Standard-LEDs-Through-Hole/Datasheets/_/N-b1bc8?P=1z0wue8" H 9150 1600 50  0001 C CNN
 	1    9150 1600
 	0    -1   -1   0   
 $EndComp
@@ -125,7 +125,7 @@ P 9500 2150
 F 0 "R14" H 9570 2196 50  0000 L CNN
 F 1 "1k" H 9570 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 9430 2150 50  0001 C CNN
-F 3 "~" H 9500 2150 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 9500 2150 50  0001 C CNN
 	1    9500 2150
 	1    0    0    -1  
 $EndComp
@@ -152,7 +152,7 @@ P 6550 2100
 F 0 "R10" H 6620 2146 50  0000 L CNN
 F 1 "270k" H 6620 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 6480 2100 50  0001 C CNN
-F 3 "~" H 6550 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 6550 2100 50  0001 C CNN
 	1    6550 2100
 	1    0    0    -1  
 $EndComp
@@ -163,7 +163,7 @@ P 6550 2750
 F 0 "R11" H 6620 2796 50  0000 L CNN
 F 1 "100k" H 6620 2705 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 6480 2750 50  0001 C CNN
-F 3 "~" H 6550 2750 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 6550 2750 50  0001 C CNN
 	1    6550 2750
 	1    0    0    -1  
 $EndComp
@@ -220,7 +220,7 @@ P 7200 3950
 F 0 "R12" H 7270 3996 50  0000 L CNN
 F 1 "R" H 7270 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 7130 3950 50  0001 C CNN
-F 3 "~" H 7200 3950 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 7200 3950 50  0001 C CNN
 	1    7200 3950
 	1    0    0    -1  
 $EndComp
@@ -248,7 +248,7 @@ P 9850 3200
 F 0 "C6" H 10028 3246 50  0000 L CNN
 F 1 "CAP" H 10028 3155 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9850 3200 50  0001 C CNN
-F 3 "~" H 9850 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 9850 3200 50  0001 C CNN
 	1    9850 3200
 	1    0    0    -1  
 $EndComp
@@ -259,7 +259,7 @@ P 10300 3250
 F 0 "BT1" H 10418 3346 50  0000 L CNN
 F 1 "Battery_Cell" H 10418 3255 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_104_1x23mm" V 10300 3310 50  0001 C CNN
-F 3 "~" V 10300 3310 50  0001 C CNN
+F 3 "https://www.mouser.com/Power/Battery-Holders-Clips-Contacts/Datasheets/_/N-cicxg?keyword=534-104" V 10300 3310 50  0001 C CNN
 	1    10300 3250
 	1    0    0    -1  
 $EndComp
@@ -314,135 +314,135 @@ Wire Wire Line
 $Comp
 L Connector:USB_B J1
 U 1 1 6147B91B
-P 1750 1850
-F 0 "J1" H 1807 2317 50  0000 C CNN
-F 1 "USB_B" H 1807 2226 50  0000 C CNN
-F 2 "Connector_USB:USB_B_Amphenol_MUSB-D511_Vertical_Rugged" H 1900 1800 50  0001 C CNN
-F 3 " ~" H 1900 1800 50  0001 C CNN
-	1    1750 1850
+P 3000 1750
+F 0 "J1" H 3057 2217 50  0000 C CNN
+F 1 "USB_B" H 3057 2126 50  0000 C CNN
+F 2 "Connector_USB:USB_B_Amphenol_MUSB-D511_Vertical_Rugged" H 3150 1700 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/18/1/io_harsh_musb_type_a_b_ab-2578195.pdf" H 3150 1700 50  0001 C CNN
+	1    3000 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 6147C608
-P 2600 1600
-F 0 "R4" H 2670 1646 50  0000 L CNN
-F 1 "49.9k" H 2670 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2530 1600 50  0001 C CNN
-F 3 "~" H 2600 1600 50  0001 C CNN
-	1    2600 1600
+P 3850 1500
+F 0 "R4" H 3920 1546 50  0000 L CNN
+F 1 "49.9k" H 3920 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3780 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3850 1500 50  0001 C CNN
+	1    3850 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 6147C96B
-P 2600 2200
-F 0 "R5" H 2670 2246 50  0000 L CNN
-F 1 "5k" H 2670 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2530 2200 50  0001 C CNN
-F 3 "~" H 2600 2200 50  0001 C CNN
-	1    2600 2200
+P 3850 2100
+F 0 "R5" H 3920 2146 50  0000 L CNN
+F 1 "5k" H 3920 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3780 2100 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3850 2100 50  0001 C CNN
+	1    3850 2100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 6147CB62
-P 2600 2500
-F 0 "R6" H 2670 2546 50  0000 L CNN
-F 1 "9.9k" H 2670 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2530 2500 50  0001 C CNN
-F 3 "~" H 2600 2500 50  0001 C CNN
-	1    2600 2500
+P 3850 2400
+F 0 "R6" H 3920 2446 50  0000 L CNN
+F 1 "9.9k" H 3920 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3780 2400 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3850 2400 50  0001 C CNN
+	1    3850 2400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 2500 2350 2500
+	3700 2400 3600 2400
 Wire Wire Line
-	2350 2500 2350 2200
+	3600 2400 3600 2100
 Wire Wire Line
-	2350 2200 2450 2200
+	3600 2100 3700 2100
 $Comp
 L power:GND #PWR0115
 U 1 1 6148179E
-P 2850 2550
-F 0 "#PWR0115" H 2850 2300 50  0001 C CNN
-F 1 "GND" H 2855 2377 50  0000 C CNN
-F 2 "" H 2850 2550 50  0001 C CNN
-F 3 "" H 2850 2550 50  0001 C CNN
-	1    2850 2550
+P 4100 2450
+F 0 "#PWR0115" H 4100 2200 50  0001 C CNN
+F 1 "GND" H 4105 2277 50  0000 C CNN
+F 2 "" H 4100 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 61482039
-P 2850 1650
-F 0 "#PWR0116" H 2850 1400 50  0001 C CNN
-F 1 "GND" H 2855 1477 50  0000 C CNN
-F 2 "" H 2850 1650 50  0001 C CNN
-F 3 "" H 2850 1650 50  0001 C CNN
-	1    2850 1650
+P 4100 1550
+F 0 "#PWR0116" H 4100 1300 50  0001 C CNN
+F 1 "GND" H 4105 1377 50  0000 C CNN
+F 2 "" H 4100 1550 50  0001 C CNN
+F 3 "" H 4100 1550 50  0001 C CNN
+	1    4100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0118
 U 1 1 6148766D
-P 2850 2150
-F 0 "#PWR0118" H 2850 2000 50  0001 C CNN
-F 1 "+5V" H 2865 2323 50  0000 C CNN
-F 2 "" H 2850 2150 50  0001 C CNN
-F 3 "" H 2850 2150 50  0001 C CNN
-	1    2850 2150
+P 4100 2050
+F 0 "#PWR0118" H 4100 1900 50  0001 C CNN
+F 1 "+5V" H 4115 2223 50  0000 C CNN
+F 2 "" H 4100 2050 50  0001 C CNN
+F 3 "" H 4100 2050 50  0001 C CNN
+	1    4100 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 2200 2850 2200
+	4000 2100 4100 2100
 Wire Wire Line
-	2850 2200 2850 2150
+	4100 2100 4100 2050
 Wire Wire Line
-	2750 2500 2850 2500
+	4000 2400 4100 2400
 Wire Wire Line
-	2850 2500 2850 2550
+	4100 2400 4100 2450
 Wire Wire Line
-	2750 1600 2850 1600
+	4000 1500 4100 1500
 Wire Wire Line
-	2850 1600 2850 1650
+	4100 1500 4100 1550
 Wire Wire Line
-	2050 1950 2350 1950
+	3300 1850 3600 1850
 Wire Wire Line
-	2350 1950 2350 2200
-Connection ~ 2350 2200
+	3600 1850 3600 2100
+Connection ~ 3600 2100
 Wire Wire Line
-	2050 1850 2350 1850
+	3300 1750 3600 1750
 Wire Wire Line
-	2350 1850 2350 1600
+	3600 1750 3600 1500
 Wire Wire Line
-	2350 1600 2450 1600
+	3600 1500 3700 1500
 $Comp
 L power:+5V #PWR0119
 U 1 1 6149B8EF
-P 2150 1300
-F 0 "#PWR0119" H 2150 1150 50  0001 C CNN
-F 1 "+5V" H 2165 1473 50  0000 C CNN
-F 2 "" H 2150 1300 50  0001 C CNN
-F 3 "" H 2150 1300 50  0001 C CNN
-	1    2150 1300
+P 3400 1200
+F 0 "#PWR0119" H 3400 1050 50  0001 C CNN
+F 1 "+5V" H 3415 1373 50  0000 C CNN
+F 2 "" H 3400 1200 50  0001 C CNN
+F 3 "" H 3400 1200 50  0001 C CNN
+	1    3400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0120
 U 1 1 6149C188
-P 1750 2500
-F 0 "#PWR0120" H 1750 2250 50  0001 C CNN
-F 1 "GND" H 1755 2327 50  0000 C CNN
-F 2 "" H 1750 2500 50  0001 C CNN
-F 3 "" H 1750 2500 50  0001 C CNN
-	1    1750 2500
+P 3000 2400
+F 0 "#PWR0120" H 3000 2150 50  0001 C CNN
+F 1 "GND" H 3005 2227 50  0000 C CNN
+F 2 "" H 3000 2400 50  0001 C CNN
+F 3 "" H 3000 2400 50  0001 C CNN
+	1    3000 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 1650 2150 1650
+	3300 1550 3400 1550
 Wire Wire Line
-	2150 1650 2150 1300
+	3400 1550 3400 1200
 $Comp
 L Regulator_Switching:TPS61090 U1
 U 1 1 614A4366
@@ -478,7 +478,7 @@ P 3800 4700
 F 0 "R7" H 3870 4746 50  0000 L CNN
 F 1 "1.07M" H 3870 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3730 4700 50  0001 C CNN
-F 3 "~" H 3800 4700 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3800 4700 50  0001 C CNN
 	1    3800 4700
 	-1   0    0    1   
 $EndComp
@@ -509,7 +509,7 @@ P 3800 5100
 F 0 "R8" H 3870 5146 50  0000 L CNN
 F 1 "200k" H 3870 5055 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3730 5100 50  0001 C CNN
-F 3 "~" H 3800 5100 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3800 5100 50  0001 C CNN
 	1    3800 5100
 	-1   0    0    1   
 $EndComp
@@ -525,7 +525,7 @@ P 4700 4850
 F 0 "C4" H 4815 4896 50  0000 L CNN
 F 1 "100uF" H 4815 4805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4700 4850 50  0001 C CNN
-F 3 "~" H 4700 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 4700 4850 50  0001 C CNN
 	1    4700 4850
 	1    0    0    -1  
 $EndComp
@@ -536,7 +536,7 @@ P 4200 4850
 F 0 "C3" H 4378 4896 50  0000 L CNN
 F 1 "2.2uF" H 4378 4805 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4200 4850 50  0001 C CNN
-F 3 "~" H 4200 4850 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 4200 4850 50  0001 C CNN
 	1    4200 4850
 	1    0    0    -1  
 $EndComp
@@ -626,7 +626,7 @@ P 4200 6900
 F 0 "D1" V 4239 6782 50  0000 R CNN
 F 1 "LED" V 4148 6782 50  0000 R CNN
 F 2 "LED_THT:LED_D8.0mm" H 4200 6900 50  0001 C CNN
-F 3 "~" H 4200 6900 50  0001 C CNN
+F 3 "https://www.mouser.com/Optoelectronics/LED-Lighting/LED-Emitters/Standard-LEDs-Through-Hole/Datasheets/_/N-b1bc8?P=1z0wue8" H 4200 6900 50  0001 C CNN
 	1    4200 6900
 	0    -1   -1   0   
 $EndComp
@@ -637,7 +637,7 @@ P 4200 6500
 F 0 "R9" H 4270 6546 50  0000 L CNN
 F 1 "1k" H 4270 6455 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 4130 6500 50  0001 C CNN
-F 3 "~" H 4200 6500 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 4200 6500 50  0001 C CNN
 	1    4200 6500
 	1    0    0    -1  
 $EndComp
@@ -648,20 +648,9 @@ P 4100 6050
 F 0 "Q1" H 4288 6004 50  0000 L CNN
 F 1 "DTB123T" H 4288 6095 50  0000 L CNN
 F 2 "OptoDevice:Vishay_MINIMOLD-3Pin" H 4100 6050 50  0001 L CNN
-F 3 "" H 4100 6050 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/427/VISH_S_A0009584333_1-2570831.pdf" H 4100 6050 50  0001 L CNN
 	1    4100 6050
 	1    0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0127
-U 1 1 6150545B
-P 4200 5750
-F 0 "#PWR0127" H 4200 5600 50  0001 C CNN
-F 1 "+5V" H 4215 5923 50  0000 C CNN
-F 2 "" H 4200 5750 50  0001 C CNN
-F 3 "" H 4200 5750 50  0001 C CNN
-	1    4200 5750
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4200 5750 4200 5850
@@ -680,7 +669,7 @@ P 1750 4250
 F 0 "L1" H 1750 4465 50  0000 C CNN
 F 1 "6.4uH" H 1750 4374 50  0000 C CNN
 F 2 "Inductor_THT:L_Axial_L12.8mm_D5.8mm_P20.32mm_Horizontal_Fastron_HBCC" H 1750 4250 50  0001 C CNN
-F 3 "~" H 1750 4250 50  0001 C CNN
+F 3 "https://co.mouser.com/c/n/passive-components/inductors-chokes-coils/fixed-inductors/?inductance=150+uH&termination+style=Axial&tolerance=10+%25&local+image+link=abracon%2fimages%2fAIAP_series_DSL.jpg" H 1750 4250 50  0001 C CNN
 	1    1750 4250
 	1    0    0    -1  
 $EndComp
@@ -691,7 +680,7 @@ P 950 4900
 F 0 "C1" H 1128 4946 50  0000 L CNN
 F 1 "10uF" H 1128 4855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 950 4900 50  0001 C CNN
-F 3 "~" H 950 4900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 950 4900 50  0001 C CNN
 	1    950  4900
 	1    0    0    -1  
 $EndComp
@@ -702,7 +691,7 @@ P 1500 4900
 F 0 "C2" H 1678 4946 50  0000 L CNN
 F 1 "0.1uF" H 1678 4855 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1500 4900 50  0001 C CNN
-F 3 "~" H 1500 4900 50  0001 C CNN
+F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 1500 4900 50  0001 C CNN
 	1    1500 4900
 	1    0    0    -1  
 $EndComp
@@ -735,7 +724,7 @@ P 2100 4900
 F 0 "R1" H 2170 4946 50  0000 L CNN
 F 1 "1.87M" H 2170 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2030 4900 50  0001 C CNN
-F 3 "~" H 2100 4900 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 2100 4900 50  0001 C CNN
 	1    2100 4900
 	-1   0    0    1   
 $EndComp
@@ -746,7 +735,7 @@ P 2100 5400
 F 0 "R2" H 2170 5446 50  0000 L CNN
 F 1 "310k" H 2170 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2030 5400 50  0001 C CNN
-F 3 "~" H 2100 5400 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 2100 5400 50  0001 C CNN
 	1    2100 5400
 	-1   0    0    1   
 $EndComp
@@ -770,17 +759,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 4250 2000 4250
 Connection ~ 2450 4250
-$Comp
-L power:+5V #PWR0131
-U 1 1 61557172
-P 950 3750
-F 0 "#PWR0131" H 950 3600 50  0001 C CNN
-F 1 "+5V" H 965 3923 50  0000 C CNN
-F 2 "" H 950 3750 50  0001 C CNN
-F 3 "" H 950 3750 50  0001 C CNN
-	1    950  3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 4250 950  4250
 Wire Wire Line
@@ -820,17 +798,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 4550 2100 4550
 Connection ~ 2100 4550
-$Comp
-L power:+5V #PWR0126
-U 1 1 615A0420
-P 2300 3750
-F 0 "#PWR0126" H 2300 3600 50  0001 C CNN
-F 1 "+5V" H 2315 3923 50  0000 C CNN
-F 2 "" H 2300 3750 50  0001 C CNN
-F 3 "" H 2300 3750 50  0001 C CNN
-	1    2300 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 3850 2300 3750
 $Comp
@@ -840,7 +807,7 @@ P 2300 4000
 F 0 "R15" H 2370 4046 50  0000 L CNN
 F 1 "200k" H 2370 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2230 4000 50  0001 C CNN
-F 3 "~" H 2300 4000 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 2300 4000 50  0001 C CNN
 	1    2300 4000
 	-1   0    0    1   
 $EndComp
@@ -848,57 +815,46 @@ Wire Wire Line
 	2500 4650 2300 4650
 Wire Wire Line
 	2300 4650 2300 4150
-$Comp
-L Connector:Conn_01x08_Female J3
-U 1 1 615DD59D
-P 9350 5550
-F 0 "J3" H 9378 5526 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9378 5435 50  0000 L CNN
-F 2 "Connector_Harwin:Harwin_M20-89008xx_1x08_P2.54mm_Horizontal" H 9350 5550 50  0001 C CNN
-F 3 "~" H 9350 5550 50  0001 C CNN
-	1    9350 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 5250 9000 5250
 Wire Wire Line
 	9000 5250 9000 4950
 Wire Wire Line
-	9150 5350 8850 5350
+	9150 5350 8800 5350
 Wire Wire Line
-	8850 5350 8850 5050
+	8800 5350 8800 5050
 Wire Wire Line
-	9150 5450 8700 5450
+	9150 5450 8600 5450
 Wire Wire Line
-	8700 5450 8700 5200
+	8600 5450 8600 5200
 $Comp
 L power:GND #PWR0135
 U 1 1 615F722F
-P 8700 6000
-F 0 "#PWR0135" H 8700 5750 50  0001 C CNN
-F 1 "GND" H 8705 5827 50  0000 C CNN
-F 2 "" H 8700 6000 50  0001 C CNN
-F 3 "" H 8700 6000 50  0001 C CNN
-	1    8700 6000
+P 8600 6000
+F 0 "#PWR0135" H 8600 5750 50  0001 C CNN
+F 1 "GND" H 8605 5827 50  0000 C CNN
+F 2 "" H 8600 6000 50  0001 C CNN
+F 3 "" H 8600 6000 50  0001 C CNN
+	1    8600 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 6000 8700 5850
+	8600 6000 8600 5850
 Wire Wire Line
-	8700 5850 9150 5850
+	8600 5850 9150 5850
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 615A6BF9
-P 4500 1600
-F 0 "#FLG0104" H 4500 1675 50  0001 C CNN
-F 1 "PWR_FLAG" V 4500 1728 50  0000 L CNN
-F 2 "" H 4500 1600 50  0001 C CNN
-F 3 "~" H 4500 1600 50  0001 C CNN
-	1    4500 1600
+P 2000 1600
+F 0 "#FLG0104" H 2000 1675 50  0001 C CNN
+F 1 "PWR_FLAG" V 2000 1728 50  0000 L CNN
+F 2 "" H 2000 1600 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+	1    2000 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4500 1600 4350 1600
+	2000 1600 1850 1600
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 615BE6DB
@@ -922,7 +878,7 @@ P 5200 4900
 F 0 "D4" V 5239 4782 50  0000 R CNN
 F 1 "LED" V 5148 4782 50  0000 R CNN
 F 2 "LED_THT:LED_D8.0mm" H 5200 4900 50  0001 C CNN
-F 3 "~" H 5200 4900 50  0001 C CNN
+F 3 "https://www.mouser.com/Optoelectronics/LED-Lighting/LED-Emitters/Standard-LEDs-Through-Hole/Datasheets/_/N-b1bc8?P=1z0wue8" H 5200 4900 50  0001 C CNN
 	1    5200 4900
 	0    -1   -1   0   
 $EndComp
@@ -933,7 +889,7 @@ P 5200 4500
 F 0 "R16" H 5270 4546 50  0000 L CNN
 F 1 "1k" H 5270 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_MELF_MMB-0207" V 5130 4500 50  0001 C CNN
-F 3 "~" H 5200 4500 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 5200 4500 50  0001 C CNN
 	1    5200 4500
 	-1   0    0    1   
 $EndComp
@@ -978,7 +934,7 @@ P 5850 4350
 F 0 "J4" H 5768 4025 50  0000 C CNN
 F 1 "Conn_01x02" H 5768 4116 50  0000 C CNN
 F 2 "Connector:Banana_Jack_2Pin" H 5850 4350 50  0001 C CNN
-F 3 "~" H 5850 4350 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/516/BananaPlugs%20D7MOOCE-257160.pdf" H 5850 4350 50  0001 C CNN
 	1    5850 4350
 	1    0    0    1   
 $EndComp
@@ -1002,47 +958,47 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0136
 U 1 1 615F7547
-P 8850 5750
-F 0 "#PWR0136" H 8850 5600 50  0001 C CNN
-F 1 "+5V" H 8865 5923 50  0000 C CNN
-F 2 "" H 8850 5750 50  0001 C CNN
-F 3 "" H 8850 5750 50  0001 C CNN
-	1    8850 5750
+P 8800 5750
+F 0 "#PWR0136" H 8800 5600 50  0001 C CNN
+F 1 "+5V" H 8815 5923 50  0000 C CNN
+F 2 "" H 8800 5750 50  0001 C CNN
+F 3 "" H 8800 5750 50  0001 C CNN
+	1    8800 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 5750 8850 5950
+	8800 5750 8800 5950
 Wire Wire Line
-	8850 5950 9150 5950
-Connection ~ 2350 1600
+	8800 5950 9150 5950
+Connection ~ 3600 1500
 Wire Wire Line
-	2350 1300 2450 1300
+	3600 1200 3700 1200
 Wire Wire Line
-	2350 1600 2350 1300
+	3600 1500 3600 1200
 Wire Wire Line
-	2850 1300 2850 1250
+	4100 1200 4100 1150
 Wire Wire Line
-	2750 1300 2850 1300
+	4000 1200 4100 1200
 $Comp
 L power:+5V #PWR0117
 U 1 1 61482F60
-P 2850 1250
-F 0 "#PWR0117" H 2850 1100 50  0001 C CNN
-F 1 "+5V" H 2865 1423 50  0000 C CNN
-F 2 "" H 2850 1250 50  0001 C CNN
-F 3 "" H 2850 1250 50  0001 C CNN
-	1    2850 1250
+P 4100 1150
+F 0 "#PWR0117" H 4100 1000 50  0001 C CNN
+F 1 "+5V" H 4115 1323 50  0000 C CNN
+F 2 "" H 4100 1150 50  0001 C CNN
+F 3 "" H 4100 1150 50  0001 C CNN
+	1    4100 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 6147C2B9
-P 2600 1300
-F 0 "R3" H 2670 1346 50  0000 L CNN
-F 1 "43k" H 2670 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_MELF_MMB-0207" V 2530 1300 50  0001 C CNN
-F 3 "~" H 2600 1300 50  0001 C CNN
-	1    2600 1300
+P 3850 1200
+F 0 "R3" H 3920 1246 50  0000 L CNN
+F 1 "43k" H 3920 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_MELF_MMB-0207" V 3780 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/Passive-Components/Resistors/Datasheets/_/N-5g9n" H 3850 1200 50  0001 C CNN
+	1    3850 1200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1058,11 +1014,11 @@ F 3 "" H 4200 7250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 7050 4200 7250
-NoConn ~ 1650 2250
-NoConn ~ 3650 2200
-NoConn ~ 4050 2000
-NoConn ~ 4050 1900
-NoConn ~ 4050 1800
+NoConn ~ 2900 2150
+NoConn ~ 1150 2200
+NoConn ~ 1550 2000
+NoConn ~ 1550 1900
+NoConn ~ 1550 1800
 NoConn ~ 9150 5550
 NoConn ~ 9150 5650
 NoConn ~ 9150 5750
@@ -1108,23 +1064,23 @@ $EndComp
 $Comp
 L power:+BATT #PWR0133
 U 1 1 6178994E
-P 8850 5050
-F 0 "#PWR0133" H 8850 4900 50  0001 C CNN
-F 1 "+BATT" H 8865 5223 50  0000 C CNN
-F 2 "" H 8850 5050 50  0001 C CNN
-F 3 "" H 8850 5050 50  0001 C CNN
-	1    8850 5050
+P 8800 5050
+F 0 "#PWR0133" H 8800 4900 50  0001 C CNN
+F 1 "+BATT" H 8815 5223 50  0000 C CNN
+F 2 "" H 8800 5050 50  0001 C CNN
+F 3 "" H 8800 5050 50  0001 C CNN
+	1    8800 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+VSW #PWR0134
 U 1 1 61789D83
-P 8700 5200
-F 0 "#PWR0134" H 8700 5050 50  0001 C CNN
-F 1 "+VSW" H 8715 5373 50  0000 C CNN
-F 2 "" H 8700 5200 50  0001 C CNN
-F 3 "" H 8700 5200 50  0001 C CNN
-	1    8700 5200
+P 8600 5200
+F 0 "#PWR0134" H 8600 5050 50  0001 C CNN
+F 1 "+VSW" H 8615 5373 50  0000 C CNN
+F 2 "" H 8600 5200 50  0001 C CNN
+F 3 "" H 8600 5200 50  0001 C CNN
+	1    8600 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1174,12 +1130,12 @@ $EndComp
 $Comp
 L power:VBUS #PWR0104
 U 1 1 617BBB98
-P 4350 1450
-F 0 "#PWR0104" H 4350 1300 50  0001 C CNN
-F 1 "VBUS" H 4365 1623 50  0000 C CNN
-F 2 "" H 4350 1450 50  0001 C CNN
-F 3 "" H 4350 1450 50  0001 C CNN
-	1    4350 1450
+P 1850 1450
+F 0 "#PWR0104" H 1850 1300 50  0001 C CNN
+F 1 "VBUS" H 1865 1623 50  0000 C CNN
+F 2 "" H 1850 1450 50  0001 C CNN
+F 3 "" H 1850 1450 50  0001 C CNN
+	1    1850 1450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1210,11 +1166,11 @@ Connection ~ 9500 1400
 Wire Wire Line
 	9500 1400 9500 1250
 Wire Wire Line
-	1750 2250 1750 2500
+	3000 2150 3000 2400
 Wire Wire Line
-	3750 2200 3750 2350
-Text Notes 6400 850  0    50   ~ 0
-hola amigo
+	1250 2200 1250 2350
+Text Notes 6400 850  0    157  ~ 31
+Circuito Li-ion
 Wire Notes Line
 	6300 900  6300 4550
 Wire Notes Line
@@ -1224,13 +1180,13 @@ Wire Notes Line
 Wire Notes Line
 	10900 900  6300 900 
 Wire Notes Line
-	1400 950  5100 950 
+	750  900  4450 900 
 Wire Notes Line
-	5100 950  5100 2900
+	4450 900  4450 2850
 Wire Notes Line
-	5100 2900 1400 2900
+	4450 2850 750  2850
 Wire Notes Line
-	1400 2900 1400 950 
+	750  2850 750  900 
 Wire Notes Line
 	750  3400 750  7500
 Wire Notes Line
@@ -1239,8 +1195,52 @@ Wire Notes Line
 	6050 7500 6050 3400
 Wire Notes Line
 	6050 3400 750  3400
-Text Notes 1400 900  0    50   ~ 0
-hola amigo
-Text Notes 750  3350 0    50   ~ 0
-hola amigo
+Text Notes 750  850  0    157  ~ 31
+Circuito USB
+Text Notes 750  3350 0    157  ~ 31
+Boost converter
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 6187F58B
+P 9350 5550
+F 0 "J3" H 9430 5542 50  0000 L CNN
+F 1 "Conn_01x08" H 9430 5451 50  0000 L CNN
+F 2 "Connector_Hirose:Hirose_DF13-08P-1.25DSA_1x08_P1.25mm_Vertical" H 9350 5550 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/185/DF13_Catalog_D31687_en-2486995.pdf" H 9350 5550 50  0001 C CNN
+	1    9350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 618E5C9F
+P 950 3750
+F 0 "#PWR?" H 950 3600 50  0001 C CNN
+F 1 "+BATT" H 965 3923 50  0000 C CNN
+F 2 "" H 950 3750 50  0001 C CNN
+F 3 "" H 950 3750 50  0001 C CNN
+	1    950  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 618E6B23
+P 2300 3750
+F 0 "#PWR?" H 2300 3600 50  0001 C CNN
+F 1 "+BATT" H 2315 3923 50  0000 C CNN
+F 2 "" H 2300 3750 50  0001 C CNN
+F 3 "" H 2300 3750 50  0001 C CNN
+	1    2300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 618F4148
+P 4200 5750
+F 0 "#PWR?" H 4200 5600 50  0001 C CNN
+F 1 "+BATT" H 4215 5923 50  0000 C CNN
+F 2 "" H 4200 5750 50  0001 C CNN
+F 3 "" H 4200 5750 50  0001 C CNN
+	1    4200 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
