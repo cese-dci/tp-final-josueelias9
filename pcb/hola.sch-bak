@@ -71,7 +71,7 @@ U 1 1 614448F2
 P 1900 2200
 F 0 "C5" H 2078 2246 50  0000 L CNN
 F 1 "CAP" H 2078 2155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1900 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1900 2200 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 1900 2200 50  0001 C CNN
 	1    1900 2200
 	1    0    0    -1  
@@ -243,7 +243,7 @@ U 1 1 61466D40
 P 9850 3200
 F 0 "C6" H 10028 3246 50  0000 L CNN
 F 1 "CAP" H 10028 3155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9850 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 9850 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 9850 3200 50  0001 C CNN
 	1    9850 3200
 	1    0    0    -1  
@@ -254,7 +254,7 @@ U 1 1 6146719E
 P 10300 3250
 F 0 "BT1" H 10418 3346 50  0000 L CNN
 F 1 "Battery_Cell" H 10418 3255 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_104_1x23mm" V 10300 3310 50  0001 C CNN
+F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 10300 3310 50  0001 C CNN
 F 3 "https://www.mouser.com/Power/Battery-Holders-Clips-Contacts/Datasheets/_/N-cicxg?keyword=534-104" V 10300 3310 50  0001 C CNN
 	1    10300 3250
 	1    0    0    -1  
@@ -520,7 +520,7 @@ U 1 1 614B9F34
 P 4700 4850
 F 0 "C4" H 4815 4896 50  0000 L CNN
 F 1 "100uF" H 4815 4805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4700 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4700 4850 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 4700 4850 50  0001 C CNN
 	1    4700 4850
 	1    0    0    -1  
@@ -531,7 +531,7 @@ U 1 1 614BA3C8
 P 4200 4850
 F 0 "C3" H 4378 4896 50  0000 L CNN
 F 1 "2.2uF" H 4378 4805 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4200 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 4200 4850 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 4200 4850 50  0001 C CNN
 	1    4200 4850
 	1    0    0    -1  
@@ -643,7 +643,7 @@ U 1 1 614E1786
 P 4100 6050
 F 0 "Q1" H 4288 6004 50  0000 L CNN
 F 1 "DTB123T" H 4288 6095 50  0000 L CNN
-F 2 "OptoDevice:Vishay_MINIMOLD-3Pin" H 4100 6050 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4100 6050 50  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/427/VISH_S_A0009584333_1-2570831.pdf" H 4100 6050 50  0001 L CNN
 	1    4100 6050
 	1    0    0    1   
@@ -664,7 +664,7 @@ U 1 1 61546036
 P 1750 4250
 F 0 "L1" H 1750 4465 50  0000 C CNN
 F 1 "6.4uH" H 1750 4374 50  0000 C CNN
-F 2 "Inductor_THT:L_Axial_L12.8mm_D5.8mm_P20.32mm_Horizontal_Fastron_HBCC" H 1750 4250 50  0001 C CNN
+F 2 "Inductor_SMD:L_1806_4516Metric" H 1750 4250 50  0001 C CNN
 F 3 "https://co.mouser.com/c/n/passive-components/inductors-chokes-coils/fixed-inductors/?inductance=150+uH&termination+style=Axial&tolerance=10+%25&local+image+link=abracon%2fimages%2fAIAP_series_DSL.jpg" H 1750 4250 50  0001 C CNN
 	1    1750 4250
 	1    0    0    -1  
@@ -675,7 +675,7 @@ U 1 1 615464AD
 P 950 4900
 F 0 "C1" H 1128 4946 50  0000 L CNN
 F 1 "10uF" H 1128 4855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 950 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 950 4900 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 950 4900 50  0001 C CNN
 	1    950  4900
 	1    0    0    -1  
@@ -686,7 +686,7 @@ U 1 1 61546914
 P 1500 4900
 F 0 "C2" H 1678 4946 50  0000 L CNN
 F 1 "0.1uF" H 1678 4855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 1500 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1500 4900 50  0001 C CNN
 F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 1500 4900 50  0001 C CNN
 	1    1500 4900
 	1    0    0    -1  
