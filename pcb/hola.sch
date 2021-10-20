@@ -249,17 +249,6 @@ F 3 "https://www.mouser.com/catalog/supplier/library/avxshortform.pdf" H 9850 32
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT1
-U 1 1 6146719E
-P 10300 3250
-F 0 "BT1" H 10418 3346 50  0000 L CNN
-F 1 "Battery_Cell" H 10418 3255 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 10300 3310 50  0001 C CNN
-F 3 "https://www.mouser.com/Power/Battery-Holders-Clips-Contacts/Datasheets/_/N-cicxg?keyword=534-104" V 10300 3310 50  0001 C CNN
-	1    10300 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0111
 U 1 1 6146807F
 P 10300 3750
@@ -282,13 +271,7 @@ F 3 "" H 9850 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 3350 10300 3750
-Wire Wire Line
 	9850 3450 9850 3750
-Wire Wire Line
-	10300 3050 10300 2700
-Wire Wire Line
-	10300 2700 9850 2700
 Wire Wire Line
 	9850 2700 9850 2950
 Wire Wire Line
@@ -1246,4 +1229,25 @@ F 3 "~" H 6950 6000 50  0001 C CNN
 	1    6950 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 6172C34A
+P 10550 3150
+F 0 "J5" H 10630 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 10630 3051 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 10550 3150 50  0001 C CNN
+F 3 "~" H 10550 3150 50  0001 C CNN
+	1    10550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3750 10300 3250
+Wire Wire Line
+	10300 3250 10350 3250
+Wire Wire Line
+	10350 3150 10300 3150
+Wire Wire Line
+	10300 3150 10300 2700
+Wire Wire Line
+	10300 2700 9850 2700
 $EndSCHEMATC
